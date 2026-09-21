@@ -1,47 +1,90 @@
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Struktur Dasar HTML</title>
-  </head>
-  <body>
-    <!-- Konten halaman ditulis di dalam body -->
-    <h1>Personal Website</h1>
-     <p>
-     Selamat datang di website pribadi saya.
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 id="judul">Personal Website</h1>
+
+    <p class="selamat-datang">
+        Selamat datang di website pribadi saya.
     </p>
+
     <nav>
-      <a href="index.html">Home</a> | <a href="About.html">About</a> | <a
-        href="Project.html"
-        >Project</a>
-      |
-      <a href="Contact.html">Contact</a> | <a href="Journey.html">Journey</a>
+        <div class="link-navbar">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Project.html">Project</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Journey.html">Journey</a>
+        </div>
     </nav>
-    <hr> 
-    <h2>Halo, Saya Delina Dwi Pebriyanti.</h2>
-    <img
-      src="Assets/Delina.jpeg"
-      alt="Foto Delina"
-      width="200"
-    />
-    <p>
-     Website ini menjadi salah satu langkah awal saya dalam mempelajari pengembangan web. Saya percaya bahwa setiap hal besar dimulai dari langkah kecil.
-    </p>
-    <p>
-     Di website ini Anda dapat mengenal saya, melihat beberapa project, serta menghubungi saya melalui halaman contact. 
-    </p>
-    <h2>Yang Sedang Saya Pelajari</h2>
-     <ul>
-      <li>HTML</li>
-      <li>Algoritma Pemrograman</li>
-      <li>Basis Data</li>
-    </ul>
-    <nav>
-      Silakan kunjungi halaman <a href="About.html">About</a> untuk mengetahui profil saya lebih lengkap
-     <nav>
-  </body>
-<hr> 
- <p>
-     ©️ 2026 Delina Dwi Pebriyanti. Dibuat menggunakan HTML
-    </p>
+
+    <hr>
+
+    <section class="profile">
+
+        <h2>Halo, Saya Delina Dwi Pebriyanti.</h2>
+
+        <img
+            id="foto-profil"
+            src="Assets/Delina.jpeg"
+            alt="Foto Delina"
+        >
+
+        <div class="deskripsi">
+            <p>
+                Website ini menjadi salah satu langkah awal saya dalam
+                mempelajari pengembangan web. Saya percaya bahwa setiap
+                hal besar dimulai dari langkah kecil.
+            </p>
+
+            <p>
+                Di website ini Anda dapat mengenal saya, melihat beberapa
+                project, serta menghubungi saya melalui halaman contact.
+            </p>
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Yang Sedang Saya Pelajari</h2>
+
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>Algoritma Pemrograman</li>
+            <li>Basis Data</li>
+        </ul>
+
+    </section>
+
+    <section class="about-link">
+
+        <p>
+            Silakan kunjungi halaman
+            <a href="About.html">About</a>
+            untuk mengetahui profil saya lebih lengkap.
+        </p>
+
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>
+            ©️ 2026 Delina Dwi Pebriyanti. Dibuat menggunakan HTML
+        </p>
+    </footer>
+
+</div>
+
+</body>
 </html>

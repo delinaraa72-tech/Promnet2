@@ -1,91 +1,128 @@
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Struktur Dasar HTML</title>
-  </head>
-  <body>
-    <!-- Konten halaman ditulis di dalam body -->
-    <h1>My Journey</h1>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Journey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="journey-container">
+
+    <h1 id="journey-judul">My Journey</h1>
+
     <nav>
-      <a href="index.html">Home</a> | <a href="About.html">About</a> | <a
-        href="Project.html">Project</a> | <a href="Contact.html">Contact</a> | <a href="Journey.html">Journey</a>
+        <div class="link-navbar">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Project.html">Project</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Journey.html">Journey</a>
+        </div>
     </nav>
-    <hr> 
-    <h2>Welcome to my journey</h2>
-    <p>
-     A collection of moments, experience, and lesson that became part of my story.</p>
+
+    <hr>
+
+    <h2>Welcome to My Journey</h2>
+
+    <p class="journey-pembuka">
+        A collection of moments, experience, and lesson that became
+        part of my story.
+    </p>
+
     <h2>Experiences</h2>
+
     <h3>Kepanitiaan Selama Berkuliah</h3>
-     <ol>
-      <li>Berlian 2026</li>
-      <li>MIKASI ESTIFEST 2026</li>
-      <li>MOKA-KU Kampus UPI di Purwakarta 2026</li>
-      <li>Kelas Pelatihan Kominfo 2026</li>
-      <li>E-TIME 2026</li>
-      <li>ROTASI 2026</li>
+
+    <ol class="experience-list">
+        <li>Berlian 2026</li>
+        <li>MIKASI ESTIFEST 2026</li>
+        <li>MOKA-KU Kampus UPI di Purwakarta 2026</li>
+        <li>Kelas Pelatihan Kominfo 2026</li>
+        <li>E-TIME 2026</li>
+        <li>ROTASI 2026</li>
     </ol>
+
     <h3>Organisasi</h3>
-     <ol>
-      <li>Sekretaris 2 OSIS SMAN 1 Sukatani </li>
-      <li>Sekretaris 1 OSIS SMAN 1 Sukatani</li>
-      <li>Ketua Divisi Kaderisasi FOMPA Generasi XII</li>
-      <li>Staff Sekretaris HIMA PSTI Kabinet Mandalaras</li>
-      <li>Divisi Seni Tari KUBUS UPI</li>
+
+    <ol class="experience-list">
+        <li>Sekretaris 2 OSIS SMAN 1 Sukatani</li>
+        <li>Sekretaris 1 OSIS SMAN 1 Sukatani</li>
+        <li>Ketua Divisi Kaderisasi FOMPA Generasi XII</li>
+        <li>Staff Sekretaris HIMA PSTI Kabinet Mandalaras</li>
+        <li>Divisi Seni Tari KUBUS UPI</li>
     </ol>
-     <h2>Memories</h2>
-    <h3>PALAPI🤩</h3>
-    <img src ="Assets/PALAPI.jpeg"
-      alt="Foto PALAPI"
-      width="200"
-    />
-     <p>
-     My First Home in UPI Purwakarta .</p>
-      <h3>NETWORK ENGINEER✨</h3>
-    <img src ="Assets/NETWORK ENGINEER.jpeg"
-      alt="Foto NETWORK ENGINEER"
-      width="200"
-    />
-     <p>
-     A little sector, a lot of memories.</p>
-     <h3>ROCKSTAR 🌟</h3>
-    <img src ="Assets/ROCKSTAR.jpeg"
-      alt="Foto ROCKSTAR"
-      width="200"
-    />
-     <p>A team that feels like home.</p>
-     <h3>ORCHID</h3>
-    <img src ="Assets/ORCHID.jpeg"
-      alt="Foto ORCHID"
-      width="200"
-    />
-     <p>A Chapter that ended, but a friendship that stayed.</p>
-     <h3>SIX MUSKETEERS🤠💘</h3>
-    <img src ="Assets/SIX MUSKETEERS.jpeg"
-      alt="Foto SIX MUSKETEERS"
-      width="200"
-    />
-     <p>
-     A friendship that feels like home. Where happines commes easily and you always feel safe.</p>
-     <h3>PSTI JAYA</h3>
-    <img src ="Assets/PSTI JAYA.jpeg"
-      alt="Foto PSTI JAYA"
-      width="200"
-    />
-     <p>
-     The people who made my first chapter brighter.</p>
-    <h3>secreterhits</h3>
-    <img src ="Assets/secreterhits.jpeg"
-      alt="Foto secreterhits"
-      width="200"
-    />
-     <p>Keluarga cemara HIMA PSTI, Terima kasih sudah membuat aku bertahan.<p>
-    <h3>SULTAN HB IX</h3>
-    <img src ="Assets/SULTAN HB IX.jpeg"
-      alt="Foto SULTAN HB IX"
-      width="200"
-    />
-     <p> Senang bisa menemani proses perjalanan kalian.
- <p>
-    
+
+    <h2>Memories</h2>
+
+    <div class="memory-list">
+
+        <div class="memory-card">
+            <h3>PALAPI 🤩</h3>
+            <img src="Assets/PALAPI.jpeg" alt="Foto PALAPI">
+            <p>My First Home in UPI Purwakarta.</p>
+        </div>
+
+        <div class="memory-card">
+            <h3>NETWORK ENGINEER ✨</h3>
+            <img src="Assets/NETWORK ENGINEER.jpeg" alt="Foto NETWORK ENGINEER">
+            <p>A little sector, a lot of memories.</p>
+        </div>
+
+        <div class="memory-card">
+            <h3>ROCKSTAR 🌟</h3>
+            <img src="Assets/ROCKSTAR.jpeg" alt="Foto ROCKSTAR">
+            <p>A team that feels like home.</p>
+        </div>
+
+        <div class="memory-card">
+            <h3>ORCHID</h3>
+            <img src="Assets/ORCHID.jpeg" alt="Foto ORCHID">
+            <p>A chapter that ended, but a friendship that stayed.</p>
+        </div>
+
+        <div class="memory-card">
+            <h3>SIX MUSKETEERS 🤠💘</h3>
+            <img src="Assets/SIX MUSKETEERS.jpeg" alt="Foto SIX MUSKETEERS">
+            <p>
+                A friendship that feels like home.
+                Where happiness comes easily and you always feel safe.
+            </p>
+        </div>
+
+        <div class="memory-card">
+            <h3>PSTI JAYA</h3>
+            <img src="Assets/PSTI JAYA.jpeg" alt="Foto PSTI JAYA">
+            <p>The people who made my first chapter brighter.</p>
+        </div>
+
+        <div class="memory-card">
+            <h3>secreterhits</h3>
+            <img src="Assets/secreterhits.jpeg" alt="Foto secreterhits">
+            <p>
+                Keluarga cemara HIMA PSTI, terima kasih sudah membuat aku bertahan.
+            </p>
+        </div>
+
+        <div class="memory-card">
+            <h3>SULTAN HB IX</h3>
+            <img src="Assets/SULTAN HB IX.jpeg" alt="Foto SULTAN HB IX">
+            <p>
+                Senang bisa menemani proses perjalanan kalian.
+            </p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="footer">
+        ©️ 2026 Delina Dwi Pebriyanti.
+    </p>
+
+</div>
+
+</body>
 </html>
